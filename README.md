@@ -18,7 +18,7 @@ $ git-u [command] owner repository
 
 where:
 
-1. `command` is the git`s command. Default is `clone`
+1. `command` is the git's command. Default is `clone`
 2. `owner` is the repository's owner name
 3. `repository` is the repository's name
 
