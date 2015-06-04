@@ -1,27 +1,33 @@
 {
-  "name": "git-x",
+  "name": "git-u",
   "version": "1.0.0",
   "description": "Quick git command line",
   "main": "app.js",
   "bin": {
-    "git-x": "./cli.js" 
+    "git-u": "./cli.js"
   },
   "scripts": {
+    "start": "node cli.js",
     "test": "standard"
   },
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dominhhai/git-x.git"
+    "url": "git+https://github.com/dominhhai/git-u.git"
   },
   "keywords": [
     "git",
-    "clone"
+    "github",
+    "clone",
+    "short-command"
   ],
   "author": "Hai Do Minh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dominhhai/git-x/issues"
+    "url": "https://github.com/dominhhai/git-u/issues"
   },
-  "homepage": "https://github.com/dominhhai/git-x#readme"
+  "homepage": "https://github.com/dominhhai/git-u#readme",
+  "devDependencies": {
+    "standard": "^4.0.1"
+  }
 }

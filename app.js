@@ -13,8 +13,7 @@ module.exports = function cloner () {
       repo = argv[length - 1]
   var url = 'https://github.com/' + owner + '/' + repo + '.git'
 
-  var command = (length === 2) ? ['clone'] : Array.prototype.slice.call(argv, 0, length
-    - 2)
+  var command = (length === 2) ? ['clone'] : Array.prototype.slice.call(argv, 0, length - 2)
   command.push(url)
 
   var git = spawn('git', command)
