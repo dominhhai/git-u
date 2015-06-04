@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Quick git command line",
   "main": "app.js",
+  "bin": {
+    "git-x": "cli.js" 
+  },
   "scripts": {
     "test": "standard"
   },
