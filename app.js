@@ -19,7 +19,7 @@ module.exports = function cloner () {
 
   var git = spawn('git', command)
 
-  console.log('running...', 'git', command, url)
+  console.log('running...', 'git', command.join(' '))
 
   git.stdout.on('data', function (data) {
     console.log(data.toString())
