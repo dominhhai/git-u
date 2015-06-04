@@ -1,0 +1,23 @@
+{
+  "name": "git-x",
+  "version": "1.0.0",
+  "description": "Quick git command line",
+  "main": "app.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominhhai/git-x.git"
+  },
+  "keywords": [
+    "git",
+    "clone"
+  ],
+  "author": "Hai Do Minh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dominhhai/git-x/issues"
+  },
+  "homepage": "https://github.com/dominhhai/git-x#readme"
+}
