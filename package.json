@@ -4,11 +4,12 @@
   "description": "Quick git command line",
   "main": "app.js",
   "bin": {
-    "git-x": "cli.js" 
+    "git-x": "./cli.js" 
   },
   "scripts": {
     "test": "standard"
   },
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dominhhai/git-x.git"
