@@ -22,7 +22,7 @@ where:
 2. `owner` is the repository's owner name
 3. `repository` is the repository's name
 
-`git-u` will be auto build the github's clone url by using your `owner` and `repository` option.
+`git-u` builds the github's clone url by using your `owner` and `repository` option.
 
 # Examples
 
