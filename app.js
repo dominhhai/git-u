@@ -1,4 +1,5 @@
 const spawn = require('child_process').spawn
+const CLONE = 'clone'
 
 module.exports = function cloner () {
   var argv = arguments,
@@ -9,12 +10,17 @@ module.exports = function cloner () {
     return
   }
 
-  var owner = argv[length - 2],
-      repo = argv[length - 1]
+  // clone owner repo local
+  var optNum = (length === 4 && argv[0] === CLONE) ? 3 : 2
+  var command = (length === 2) ? [CLONE] : Array.prototype.slice.call(argv, 0, length - optNum)
+  var owner = argv[length - optNum],
+      repo = argv[length - optNum + 1]
   var url = 'https://github.com/' + owner + '/' + repo + '.git'
-
-  var command = (length === 2) ? ['clone'] : Array.prototype.slice.call(argv, 0, length - 2)
   command.push(url)
+  // add local dir option to command
+  if (optNum === 3) {
+    command.push(argv[length - 1])
+  }
 
   var git = spawn('git', command)
 
