@@ -13,14 +13,15 @@ $ npm install -g git-u
 # How to use
 
 ```
-$ git-u [command] owner repository
+$ git-u [command] owner repository [local]
 ```
 
 where:
 
-1. `command` is the git's command. Default is `clone`
-2. `owner` is the repository's owner name
-3. `repository` is the repository's name
+1. `command` is the git's command. Default is `clone`.
+2. `owner` is the repository's owner name.
+3. `repository` is the repository's name.
+4. `local` is the clone local dir. This option is only available with the `clone` command.
 
 `git-u` builds the github's clone url by using your `owner` and `repository` option.
 
