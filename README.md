@@ -26,8 +26,9 @@ where:
 
 # Examples
 
-1. `git-u dominhhai git-u` will be run the `git clone https://github.com/dominhhai/git-u.git` command.
-2. `git-u remote add origin dominhhai git-u` will be run the `git remote add origin https://github.com/dominhhai/git-u.git` command.
+1. `git-u dominhhai git-u` runs the `git clone https://github.com/dominhhai/git-u.git` command.
+2. `git-u clone dominhhai git-u gitu` runs the `git clone https://github.com/dominhhai/git-u.git gitu` command.
+3. `git-u remote add origin dominhhai git-u` runs the `git remote add origin https://github.com/dominhhai/git-u.git` command.
 
 
 
