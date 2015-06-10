@@ -2,6 +2,8 @@
 
 Short github command line by auto-building github url.
 
+[![npm version](https://badge.fury.io/js/git-u.svg)](http://badge.fury.io/js/git-u) [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+
 # Installation
 
 This command will be required the [node.js](http://nodejs.org/) or [io.js](https://iojs.org/en/index.html) environment. So, please install one of them into your computer before installing this command.
